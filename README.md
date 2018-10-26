@@ -4,20 +4,12 @@ Prove or disprove the given query based on the knowledge base
 
 Project description
 
-After the high-profile lawsuit in which you succeeded to bring RealityMan to justice after proving that
-distributing his Nintendo emulator was a criminal act, everyone wants to hire you! From disputes over tech
-patents, to lawsuits on questions of privacy in social media, to suits on liability issues with self-driving cars, to
-disputes between Hollywood celebrities and their agents or producers, you are just running out of time and
-energy to run all these cases by hand like we have done in the lectures.
-Because of the highly sensitive nature of the cases you handle, and because of the extremely high monetary
-amounts involved, you cannot trust any existing. You thus decide to create your own, ultra-optimized
-inference engine.
-After much debating, you decide that the knowledge bases which you will create to handle each case will
-contain sentences with the following defined operators:
+The assignment is to create an inference engine.
+The knowledge bases which will handle each query will contain sentences with the following defined operators:
 NOT X ~X
 X OR Y X | Y
-Your assignment is:
-You will use first-order logic resolution to solve this problem.
+The task is to use first-order logic resolution to solve this problem.
+
 Format for input.txt:
 <NQ = NUMBER OF QUERIES>
 <QUERY 1>
